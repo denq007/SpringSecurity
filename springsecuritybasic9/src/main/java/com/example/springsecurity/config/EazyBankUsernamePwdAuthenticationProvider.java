@@ -33,7 +33,7 @@ public class EazyBankUsernamePwdAuthenticationProvider implements Authentication
         List<Customer> customer = customerRepository.findByEmail(username);
         if (customer.size() > 0) {
             if (passwordEncoder.matches(pwd, customer.get(0).getPwd())) {
-                return new UsernamePasswordAuthenticationToken(username, pwd,getGrantedAuthorities(customer.get(0).getAuthorities()));
+                return new UsernamePasswordAuthenticationToken(username, pwd, getGrantedAuthorities(customer.get(0).getAuthorities()));
             } else {
                 throw new BadCredentialsException("Invalid password!");
             }

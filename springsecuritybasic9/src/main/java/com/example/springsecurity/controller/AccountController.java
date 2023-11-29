@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountController {
     @Autowired
     private AccountsRepository accountsRepository;
+
     @GetMapping("/myAccount")
-    public Accounts getAccount(@RequestParam int id) {
+    public Accounts getAccountDetails(@RequestParam int id) {
         Accounts accounts = accountsRepository.findByCustomerId(id);
-        if (accounts != null) {
+        if (accounts != null ) {
             return accounts;
-        } else {
+        }else {
             return null;
         }
     }
