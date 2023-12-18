@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795557bc-00b9-40ef-8c54-97863da0da55" name="Changes" comment="Added 6 part, changed entities." />
+    <list default="true" id="5b638702-2f1e-48e4-9d9e-48a33013ed6b" name="Changes" comment="Added 9 (JWT token)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="72adc27d-923c-4c91-9658-ac9e6b709a6e" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,62 +28,188 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2Y2aYhRpgmhYP0guTITfnjXLCKB" />
+  <component name="ProjectId" id="2YAgRaT4pU4dTrRLHfNZclKrq3A" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-18",
+    "last_opened_file_path": "C:/study/springsecurity/springsecuritybasic10/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EazyBankBackendApplication (8)">
+    <configuration name="EazyBankBackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic9" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic10" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EazyBankBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecuritybasic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringOauth2GitHubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SpringOAUTH2GitHub" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.springoauth2github.SpringOauth2GitHubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="795557bc-00b9-40ef-8c54-97863da0da55" name="Changes" comment="" />
-      <created>1699726177918</created>
+      <changelist id="5b638702-2f1e-48e4-9d9e-48a33013ed6b" name="Changes" comment="" />
+      <created>1699973791124</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699726177918</updated>
-      <workItem from="1699726179262" duration="335000" />
-      <workItem from="1699726644229" duration="430000" />
+      <updated>1699973791124</updated>
+      <workItem from="1699973792258" duration="1116000" />
+      <workItem from="1699974930615" duration="4840000" />
+      <workItem from="1700144659544" duration="4431000" />
+      <workItem from="1700574585088" duration="3904000" />
+      <workItem from="1700762511355" duration="68000" />
+      <workItem from="1701247557702" duration="5685000" />
+      <workItem from="1702230790161" duration="26000" />
+      <workItem from="1702751781531" duration="5169000" />
+      <workItem from="1702811219639" duration="1376000" />
+      <workItem from="1702829601196" duration="609000" />
+      <workItem from="1702919975454" duration="1524000" />
     </task>
-    <task id="LOCAL-00001" summary="Added 6 part, changed entities.">
+    <task id="LOCAL-00001" summary="Added 7 part- Authority and Role">
       <option name="closed" value="true" />
-      <created>1699726353447</created>
+      <created>1699979554749</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1699726353447</updated>
+      <updated>1699979554749</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added 6 part, changed entities.">
+    <task id="LOCAL-00002" summary="Added 8 (Custom Filters) and 9 part without changes">
       <option name="closed" value="true" />
-      <created>1699726410899</created>
+      <created>1700577095278</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1699726410899</updated>
+      <updated>1700577095279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added 9 (JWT token)">
+      <option name="closed" value="true" />
+      <created>1701250808313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701250808313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 6 part, changed entities." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 6 part, changed entities." />
+    <MESSAGE value="Added 7 part- Authority and Role" />
+    <MESSAGE value="Added 8 (Custom Filters) and 9 part without changes" />
+    <MESSAGE value="Added 9 (JWT token)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 9 (JWT token)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springsecuritybasic8/src/main/java/com/example/springsecurity/filter/AuthoritiesLoggingAtFilter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
